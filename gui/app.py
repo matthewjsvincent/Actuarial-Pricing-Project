@@ -67,23 +67,23 @@ class PricingApp:
         self.customers_tab = ttk.Frame(self.notebook)
         self.policies_tab = ttk.Frame(self.notebook)
         self.quotes_tab = ttk.Frame(self.notebook)
-        self.logs_tab = ttk.Frame(self.notebook)
         self.analytics_tab = ttk.Frame(self.notebook)
         self.portfolio_tab = ttk.Frame(self.notebook)
+        self.logs_tab = ttk.Frame(self.notebook)
 
         self.notebook.add(self.customers_tab, text="Customers")
         self.notebook.add(self.policies_tab, text="Policies")
         self.notebook.add(self.quotes_tab, text="Quotes")
-        self.notebook.add(self.logs_tab, text="Logs")
         self.notebook.add(self.analytics_tab, text="Analytics")
         self.notebook.add(self.portfolio_tab, text="Portfolio Engine")
+        self.notebook.add(self.logs_tab, text="Logs")
 
         self._build_customers_tab()
         self._build_policies_tab()
         self._build_quotes_tab()
-        self._build_logs_tab()
         self._build_analytics_tab()
         self._build_portfolio_tab()
+        self._build_logs_tab()
 
         self.status_var = tk.StringVar(value="Ready")
 
