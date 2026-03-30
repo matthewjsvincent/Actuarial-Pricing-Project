@@ -20,13 +20,13 @@ It is built with a **Tkinter GUI**, **SQLite database**, and **statistical model
 
 ## 📸 Screenshots
 
-### Main Application
+### Main Customer Tab
 ![Customer UI](docs/screenshots/customer_ui.png)
 
-### Portfolio Forecast with Progress Tracking
+### Portfolio and Forecasting
 ![Portfolio Engine](docs/screenshots/portfolio_engine.png)
 
-### Analytics Dashboard
+### Activity Log
 ![Logs](docs/screenshots/log.png)
 
 ## 🧠 Key Features
